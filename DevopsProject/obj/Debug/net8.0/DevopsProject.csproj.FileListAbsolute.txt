@@ -23,3 +23,4 @@ C:\Users\petir\devops-project\DevopsProject\obj\Debug\net8.0\refint\DevopsProjec
 C:\Users\petir\devops-project\DevopsProject\obj\Debug\net8.0\DevopsProject.pdb
 C:\Users\petir\devops-project\DevopsProject\obj\Debug\net8.0\DevopsProject.genruntimeconfig.cache
 C:\Users\petir\devops-project\DevopsProject\obj\Debug\net8.0\ref\DevopsProject.dll
+C:\Users\petir\devops-project\DevopsProject\obj\Debug\net8.0\DevopsProject.sourcelink.json
