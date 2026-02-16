@@ -17,3 +17,5 @@ app.MapGet("/products", () => Results.Ok(new[]
 }));
 
 app.Run();
+
+public partial class Program { }
