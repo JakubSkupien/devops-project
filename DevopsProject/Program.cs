@@ -1,4 +1,10 @@
+using Microsoft.ApplicationInsights.Extensibility;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// Application Insights 
+builder.Services.AddApplicationInsightsTelemetry();
+
 var app = builder.Build();
 
 // GET /
