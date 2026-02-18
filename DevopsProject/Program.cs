@@ -1,9 +1,12 @@
-using Microsoft.ApplicationInsights.Extensibility;
-
 var builder = WebApplication.CreateBuilder(args);
-
-// Application Insights 
-builder.Services.AddApplicationInsightsTelemetry();
+var aiConn = builder.Configuration["APPLICATIONINSIGHTS_CONNECTION_STRING"];
+if (!string.IsNullOrWhiteSpace(aiConn))
+{
+    builder.Services.AddApplicationInsightsTelemetry(options =>
+    {
+        options.ConnectionString = aiConn;
+    });
+}
 
 var app = builder.Build();
 
